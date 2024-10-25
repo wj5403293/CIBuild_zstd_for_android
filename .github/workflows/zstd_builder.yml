@@ -37,7 +37,7 @@ on:
       NDK:
         description: "NDK Version"
         required: true
-        default: 'r26d'
+        default: 'r27c'
       SDK:
         description: "SDK Version"
         required: true
@@ -62,4 +62,4 @@ jobs:
       with:
         name: ZSTD_${{ env.DATA }}
         compression-level: 9
-        path: zstd_workdir/output/bin/zstd
+        path: zstd_workdir/output/
